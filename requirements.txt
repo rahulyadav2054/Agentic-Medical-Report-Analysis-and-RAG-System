@@ -1,0 +1,17 @@
+# Install PyTorch separately using the official selector for your OS/CUDA setup.
+transformers==4.56.2
+sentence-transformers==5.1.1
+accelerate
+faiss-cpu
+pymupdf
+pytesseract
+Pillow
+langgraph
+langchain
+pydantic<2.13
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.6.1
+pandas==2.3.3
+# Optional only if imported by your code:
+# bitsandbytes
